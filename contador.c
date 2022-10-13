@@ -1,5 +1,7 @@
+
 #include <unistd.h>
 #include <ctype.h>
+
 int main()
 {
     char l;
@@ -8,7 +10,7 @@ int main()
     int contador = 0;
     do
     {
-        n = read(STDIN_FILENO, &l, 1);
+        n = read(STDIN_FILENO, &c, 1);
         may = toupper(l);
         if (l == 'a' || l == 'e' || l == 'i' || l == 'o' || l == 'u')
         {
