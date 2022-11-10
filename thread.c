@@ -1,9 +1,9 @@
 #include <pthread.h>
 #include <stdio.h>
+#define NUM_THREADS 10
 typedef struct threadData{
     int threadId;
     char name [20];
-    //..
 }ThreadData;
 typedef char caracter;
 
